@@ -33,6 +33,7 @@ header .logo-area a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+  padding-left: 20px;
 }
 
 header .menu {
@@ -60,14 +61,15 @@ header .icon-links {
 
 header .icon-links ul li {
   display: inline-block;
+  padding: 3px;
 }
 
 header .icon-links .quick-options {
   display: inline-block;
   margin-left: -4px;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 header .icon-links .privacy {
