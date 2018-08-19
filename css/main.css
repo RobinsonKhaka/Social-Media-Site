@@ -1,14 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: sans-serif;
 }
 
 header {
   background: #3B5998;
+  padding: 15px;
 }
 
 header .logo-area {
   color: white;
   display: inline-block;
+  width: 20%;
+  margin-left: -4px;
 }
 
 header .logo-area a {
@@ -19,6 +26,8 @@ header .logo-area a {
 
 header .menu {
   display: inline-block;
+  width: 20%;
+  margin-left: -4px;
 }
 
 header .menu ul li {
@@ -27,6 +36,8 @@ header .menu ul li {
 
 header .icon-links {
   display: inline-block;
+  width: 20%;
+  margin-left: -4px;
 }
 
 header .icon-links ul li {
@@ -35,14 +46,18 @@ header .icon-links ul li {
 
 header .icon-links .quick-options {
   display: inline-block;
+  margin-left: -4px;
 }
 
 header .icon-links .privacy {
   display: inline-block;
+  margin-left: -4px;
 }
 
 header .search-area {
   display: inline-block;
+  width: 40%;
+  margin-left: -4px;
 }
 
 header .search-area ul li {
