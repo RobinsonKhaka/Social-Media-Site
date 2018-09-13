@@ -6,6 +6,10 @@ html {
   font-family: sans-serif;
 }
 
+/*
+ ////////////////////////////////////////////////////////////////////////////
+ */
+
 header {
   background: #3B5998;
   padding: 15px;
@@ -86,5 +90,33 @@ header .search-area {
 }
 
 header .search-area ul li {
+  display: inline-block;
+}
+
+/*
+ ////////////////////////////////////////////////////////////////////////////
+ */
+
+#top-area {
+  padding: 200px 15px 90px 15px;
+  background: url(https://ae01.alicdn.com/kf/HTB1qySSXUR1BeNjy0Fmq6z0wVXap/Hiver-nuit-montagnes-de-neige-sc-ne-paysage-KC395-vivant-chambre-mur-de-la-maison-moderne.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+}
+
+#top-area .profile-info .user-img {
+  padding: 10px;
+  display: inline-block;
+}
+
+#top-area .profile-info .user-img img {
+  border-radius: 50%;
+}
+
+#top-area .profile-info .user-details {
   display: inline-block;
 }
