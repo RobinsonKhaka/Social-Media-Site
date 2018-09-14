@@ -6,6 +6,10 @@ html {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*
  ////////////////////////////////////////////////////////////////////////////
  */
@@ -99,13 +103,11 @@ header .search-area ul li {
 
 #top-area {
   padding: 200px 15px 90px 15px;
-  background: url(https://ae01.alicdn.com/kf/HTB1qySSXUR1BeNjy0Fmq6z0wVXap/Hiver-nuit-montagnes-de-neige-sc-ne-paysage-KC395-vivant-chambre-mur-de-la-maison-moderne.jpg) no-repeat center center;
+  background: url(http://ezba.info/wp-content/uploads/2018/08/landscape-fjords-mountains-peaks-snowy-sunrise-ocean-light-wallpaper-hd-winter-scenes-fresh-lake-desktop-wallpapers-group-78-of-landscape-fjords-mountains-peaks-snowy-sunrise-ocean-light-wal.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
 }
 
 #top-area .profile-info .user-img {
@@ -119,4 +121,34 @@ header .search-area ul li {
 
 #top-area .profile-info .user-details {
   display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+#top-area .profile-info .user-details h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#top-area .profile-info .user-details a {
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  margin-left: -4px;
+  margin-right: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  transition: background .4s ease-in-out;
+}
+
+#top-area .profile-info .user-details a:hover {
+  background: #3B5998;
 }
