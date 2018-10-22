@@ -204,7 +204,6 @@ header .search-area ul li {
 
 #content-area .widget-box .head .widget-icon .fas {
   max-width: 50%;
-  font-size: 20px;
 }
 
 #content-area .widget-box .head .widget-title {
@@ -268,8 +267,12 @@ header .search-area ul li {
   overflow: auto;
 }
 
+#content-area .main-area .widget-box.post .head {
+  margin: 0 0 15px 0;
+}
+
 #content-area .main-area .widget-box.post .head .user-img-container {
-  width: 8%;
+  width: 15%;
   display: inline-block;
   overflow: auto;
   float: left;
@@ -304,11 +307,158 @@ header .search-area ul li {
 #content-area .main-area .widget-box.post .head .post-info .user-info {
   display: block;
   font-size: 14px;
-  margin: 4px 0 6px 0;
+  margin: 4px 0 6px 5px;
 }
 
 #content-area .main-area .widget-box.post .head .post-info .post-date {
   display: block;
   font-size: 12px;
   color: #ABABAB;
+  margin: 0 5px;
 }
+
+#content-area .main-area .widget-box.post .body {
+  padding: 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-img img {
+  width: 100%;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons {
+  width: 100%;
+  padding: 15px 0;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .far {
+  font-size: 20px;
+  color: #ABABAB;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fas {
+  font-size: 20px;
+  color: #ABABAB;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa-thumbs-up {
+  margin-right: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .icons-float-right {
+  float: right;
+  display: inline-block;
+}
+
+/* #content-area .main-area .widget-box.post .body .post-img .top-icons .fa-thumbs-up {
+  margin-right: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-img .top-icons .far {
+  font: 50px;
+} */
+
+#content-area .main-area .widget-box.post .body .post-comments {
+  background: #E0E0E0;
+  margin-left: -10px;
+  margin-right: -15px;
+  padding: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img {
+  width: 15%;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img img {
+  border-radius: 50%;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment {
+  display: inline-block;
+  float: left;
+  width: 85%;
+  font-size: 14px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info {
+  margin: 5px 0 10px 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info .time {
+  color: #ABABAB;
+  font-size: 10px;
+  float: right;
+}
+
+/*==========================================================
+LEAVE SPACE ABOVE=======================*/
+
+#content-area .main-area .widget-box.post .body .post-form {
+  padding: 15px 0 0 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img {
+  width: 15%;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-form::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img img {
+  border-radius: 50%;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info {
+  display: inline-block;
+  float: left;
+  width: 85%;
+  font-size: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ABABAB;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info input {
+  width: 80%;
+  border: 0 solid #fff;
+  font-size: 18px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info input:focus {
+  width: 80%;
+  border: 0 solid #fff;
+  outline: none;
+  font-size: 18px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons {
+  display: inline-block;
+  float: right;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons .fas {
+  font-size: 20px;
+  margin: 0 15px 0 0;
+}
+
+/*==========================================================
+LEAVE SPACE ABOVE=======================*/
